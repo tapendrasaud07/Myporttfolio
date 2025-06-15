@@ -1,38 +1,44 @@
-nav{
-    display: flex;
-    flex-direction: row;
-    background-color: beige;
-    flex-wrap: wrap;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.header{
+.navbar{
     display: flex;
-    background-color: beige;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: white;
+    background:rgb(10, 118, 242);
+    padding:20px 40px;
 }
-
-.header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 26px;
-    font-weight: bold;
+.menu
+{
     display: flex;
-    padding-left: 4%;
-}
-a {
-    padding-top: 26px;
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    padding-left: 12%;
-    padding-right: 0%;
+    justify-content: space-around;
     gap: 20px;
+    padding-right: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 38px;
+}
+.logo{
+    font-size: 40px;
+    font-family: serif;
+    color: tomato;
+
+}
+.logo span{
+    font-style: bold;
+    color: black;
 }
 .bdy{
-height: 910px;
-width: auto;
 background-color: aqua;
 padding-top: 12px;
+height:65rem;
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -66,6 +72,7 @@ button:hover{
 }
 .home-content{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
     background-color: beige;
     display: flex;
     gap: 20px;
