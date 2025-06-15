@@ -2,6 +2,7 @@ nav{
     display: flex;
     flex-direction: row;
     background-color: beige;
+    flex-wrap: wrap;
 }
 .header{
     display: flex;
