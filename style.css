@@ -1,0 +1,86 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+}
+.header{
+    display: flex;
+    background-color: beige;
+}
+
+.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    padding-left: 4%;
+}
+a {
+    padding-top: 26px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding-left: 12%;
+    padding-right: 0%;
+    gap: 20px;
+}
+.bdy{
+height: 910px;
+width: auto;
+background-color: aqua;
+padding-top: 12px;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+.bdy h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bdy p{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 2px;
+}
+button{
+    padding: 10px 20px;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(2, 68, 46);
+    color: aliceblue;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: brown;
+}
+.home-content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.home{
+    width: 600px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(52, 50, 50);
+    color: aliceblue;
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
