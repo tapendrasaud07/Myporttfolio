@@ -44,12 +44,8 @@ a:hover{
 .mblmenu{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    background: #000;
-    color:white;
-    flex-direction: column;
-       background-color: aliceblue;
-       text-decoration: none;
+    background-color: aliceblue;
+    text-decoration: none;
     display: none;
 }
 .bdy{
@@ -144,6 +140,9 @@ footer{
     }
     .icon{
         display: block;
+    }
+    #mn{
+        text-decoration: none;
     }
 
 }

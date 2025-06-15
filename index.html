@@ -125,8 +125,10 @@
     <script>
         function show()
         {
-            alert("Hello world");
-            document.getElementsByClassName("mn").style.display="block";
+
+       let mn= document.getElementById("mn");
+       mn.style.cssText = "display:flex;gap:10px; background-color:skyblue; font-size: 16px;text-decoration:none;";
+    
 
         }
 
