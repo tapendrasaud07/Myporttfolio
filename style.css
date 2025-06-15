@@ -23,22 +23,39 @@
 .menu a{
     text-decoration: none;
     color: white;
-    font-size: 38px;
+    font-size: 26px;
+}
+.icon{
+    display: none;
+}
+a:hover{
+    color: rgb(238, 137, 5);
 }
 .logo{
-    font-size: 40px;
+    font-size: 26px;
     font-family: serif;
     color: tomato;
 
 }
 .logo span{
     font-style: bold;
-    color: black;
+    color: rgb(252, 252, 252);
+}
+.mblmenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #000;
+    color:white;
+    flex-direction: column;
+       background-color: aliceblue;
+       text-decoration: none;
+    display: none;
 }
 .bdy{
 background-color: aqua;
 padding-top: 12px;
-height:65rem;
+height:100vh;
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -71,16 +88,25 @@ button:hover{
     color: brown;
 }
 .home-content{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    background-color: beige;
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  padding: 20px 20px;
 }
 .home{
     width: 600px;
+    box-shadow: 2px 2px 2px 3px rgb(210, 209, 209);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 footer{
     display: flex;
@@ -89,6 +115,35 @@ footer{
     text-align: center;
     background-color: rgb(52, 50, 50);
     color: aliceblue;
-    font-size: 26px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}
+@media (max-width: 700px) {
+    .menu{
+        display: none;
+    }
+    .navbar{
+        padding: 5px;
+    }
+    .logo{
+        font-size: 16px;
+    }
+    .bdy h2{
+        font-size: 20px;
+        font-style: normal;
+
+    }
+    .bdy p{
+        font-size: 16px;
+        font-style: normal;
+    }
+    .bdy button{
+        font-size: 16px;
+        width: 150px;
+        height: auto;
+        
+    }
+    .icon{
+        display: block;
+    }
+
 }
