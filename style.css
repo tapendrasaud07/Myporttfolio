@@ -99,6 +99,7 @@ button:hover{
 .home img{
     height: 180px;
     width: 300px;
+    flex-wrap: wrap;
 }
 .box{
     display: flex;
