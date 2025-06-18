@@ -84,10 +84,10 @@ button:hover{
     color: brown;
 }
 .home-content{
-  display: flex;
-  flex-direction: column;
-  gap:10px;
-  padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px 20px;
 }
 .home{
     width: 600px;
@@ -95,8 +95,10 @@ button:hover{
     border-radius: 10px;
     justify-content: center;
     text-align: center;
-
-
+}
+.home img{
+    height: 180px;
+    width: 300px;
 }
 .box{
     display: flex;
